@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Soma de Números com Next.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desenvolvido como atividade prática da disciplina **Desenvolvimento com React** no curso de **Sistemas de Informação**.
 
-## Available Scripts
+Este projeto é uma implementação de uma página web simples em **Next.js** e **React** que permite ao usuário inserir dois números em um formulário e visualizar a soma desses valores. O objetivo deste projeto foi a prática de conceitos de React, incluindo criação de componentes, uso de hooks para o gerenciamento de estado e manipulação de eventos.
 
-In the project directory, you can run:
+<img src="./contador-com-react.gif" alt="Imagem da tela do projeto">
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Next.js**
+- **React**
+- **JavaScript**
+- **HTML**
+- **CSS**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estrutura de Pastas
 
-### `npm test`
+```
+📦 app-contador-com-react
+ ┣ 📂 node_modules
+ ┃ ┗ 📜 ...
+ ┣ 📂 public
+ ┃ ┣ 📜 index.html
+ ┃ ┗ 🖼️ favicon.ico
+ ┣ 📂 src
+ ┃ ┣ 📜 App.js
+ ┃ ┣ 📜 FormularioEmail.js
+ ┃ ┣ 📜 index.css
+ ┃ ┗ 📜 index.js
+ ┣ 📜 .gitignore
+ ┣ 📜 package-lock.json
+ ┣ 📜 package.json
+ ┣ 🖼️ contador-com-react.gif
+ ┗ 📜 README.md
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Usar
 
-### `npm run build`
+1. Clone o repositório:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/Alberesbass/soma-numeros.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Acesse o diretório do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd soma-numeros
+   ```
 
-### `npm run eject`
+3. Instale as dependências:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Inicie o servidor de desenvolvimento:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm run dev
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Abra o navegador e acesse `http://localhost:3000` para visualizar o projeto.
 
-## Learn More
+## Licença
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+Desenvolvido por [Alberes](https://github.com/Alberesbass)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
