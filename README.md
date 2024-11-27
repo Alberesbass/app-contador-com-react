@@ -1,4 +1,4 @@
-# Soma de Números com Next.js
+# App contador com React.js
 
 Desenvolvido como atividade prática da disciplina **Desenvolvimento com React** no curso de **Sistemas de Informação**.
 
