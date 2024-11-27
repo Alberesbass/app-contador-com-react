@@ -4,7 +4,7 @@ Desenvolvido como atividade prática da disciplina **Desenvolvimento com React**
 
 Este projeto é uma implementação de uma página web simples em **React** que demonstra a funcionalidade de um contador.<br>
 O contador permite aumentar ou diminuir o valor exibido clicando em botões.<br><br>
-A funcionalidades se basea em aumentar valor quando o uduário clica no botão "incrementar" para incrementar o contador e diminuir o valor ao clicar no botão "decrementar" para decrementar o contador.
+A funcionalidades se baseia em aumentar valor quando o usuário clica no botão "incrementar" para incrementar o contador e diminuir o valor ao clicar no botão "decrementar" para decrementar o contador.
 
 <img src="./contador-com-react.gif" alt="Imagem da tela do projeto">
 
