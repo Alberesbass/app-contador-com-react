@@ -2,7 +2,9 @@
 
 Desenvolvido como atividade prática da disciplina **Desenvolvimento com React** no curso de **Sistemas de Informação**.
 
-Este projeto é uma implementação de uma página web simples em **Next.js** e **React** que permite ao usuário inserir dois números em um formulário e visualizar a soma desses valores. O objetivo deste projeto foi a prática de conceitos de React, incluindo criação de componentes, uso de hooks para o gerenciamento de estado e manipulação de eventos.
+Este projeto é uma implementação de uma página web simples em **React** que demonstra a funcionalidade de um contador.
+O contador permite aumentar ou diminuir o valor exibido clicando em botões.
+A funcionalidades se basea em aumentar valor: Clique no botão "incrementar" para incrementar o contador e diminuir valor: Clique no botão "decrementar" para decrementar o contador.
 
 <img src="./contador-com-react.gif" alt="Imagem da tela do projeto">
 
